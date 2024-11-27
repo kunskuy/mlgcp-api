@@ -1,0 +1,6 @@
+node_modules/
+.env
+src/test/dataset/
+src/test/model/
+src/config/credentials.json
+docker-compose.yaml

@@ -1,0 +1,6 @@
+node_modules
+npm-debug.log
+.env
+src/test
+src/config
+example-docker-compose.yaml

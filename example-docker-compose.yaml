@@ -1,0 +1,12 @@
+version: '3'
+services:
+  mlgcp:
+    image: mlgcp
+    ports:
+      - "8080:8080"
+    volumes:
+      - path local credentials.json: path container credentials.json
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS= path container credenetials.json
+    env_file:
+      - .env
